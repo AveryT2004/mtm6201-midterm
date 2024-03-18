@@ -1,0 +1,6 @@
+<svg id="people-outline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle" width="24" height="24" opacity="0"/>
+  <path id="Shape" d="M0,4A4,4,0,1,1,4,8,4,4,0,0,1,0,4Z" transform="translate(5 3)" fill="#dc2f2f"/>
+  <path id="Shape-2" data-name="Shape" d="M0,3A3,3,0,1,1,3,6,3,3,0,0,1,0,3Z" transform="translate(14 7)" fill="#dc2f2f"/>
+  <path id="Path" d="M15,.991a5,5,0,0,0-3.06,1.05A7,7,0,0,0,0,6.991a1,1,0,0,0,2,0,5,5,0,0,1,10,0,1,1,0,0,0,2,0,6.9,6.9,0,0,0-.86-3.35A3,3,0,0,1,18,5.991a1,1,0,0,0,2,0,5,5,0,0,0-5-5Z" transform="translate(2 13.009)" fill="#dc2f2f"/>
+</svg>

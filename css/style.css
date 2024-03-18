@@ -1,0 +1,299 @@
+
+@font-face {
+    font-family: Open Sans;
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+    }
+
+* {font-family: Open Sans;}
+
+/* HOMEPAGE */
+#status {
+    display: grid;
+    justify-content: center;
+}
+
+#acts{
+    color: #0D65D8;
+    text-align: center;
+}
+
+#share{
+    color: #757E90;
+    text-align: center;
+    font-size: 21px;
+}
+
+#kids{
+    display: grid;
+    justify-content: center;
+}
+
+#start button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    margin-top: 5%;
+    margin-left: 25%;
+    background-color: #0D65D8;
+    color: white;
+    font-family: Open Sans;
+    font-size: 18px;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 50%;
+}
+
+/* LOGIN PAGE */
+#login-page{
+    margin: 10%;
+}
+
+#arrow {
+    padding-top: 5%;
+}
+
+#journey{
+    color: #757E90;
+    font-size: 18px;
+}
+
+#username {
+    color: #757E90;
+    padding-bottom: 25%;
+    grid-column: 1/4;
+    padding-top: 8%;
+}
+
+#user {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 3%;
+    grid-row: 2;
+    grid-column: 1/4;
+}
+
+#password {
+    color: #757E90;
+    padding-top: 8%;
+}
+
+#pass {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 3%;
+    grid-row: 4;
+    grid-column: 1/4;
+}
+
+#login {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15%;
+}
+
+
+#remember{
+    grid-row: 5/6;
+    grid-column: 1/3;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+#forgot {
+    display: flex;
+    grid-row: 5/6;
+    grid-column: 3/4;
+    padding-top: 8%;
+    text-decoration: none;
+    color: black;
+    /* Had to give up on this text, would not move in the grid no matter what I did. */
+}
+
+#continue {
+    grid-row: 6/7;
+    grid-column: 1/4;
+    padding: 5%;
+    margin-top: 5%;
+    background-color: #0D65D8;
+    color: white;
+    font-family: Open Sans;
+    font-size: 18px;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#keyboard {
+    scale: 1.2;
+    display: grid;
+    justify-content: center;
+}
+
+/* WELCOME PAGE */
+#welcome{
+    justify-content: center;
+    align-items: center;
+}
+
+#start-page{
+    display: grid;
+    grid-template-columns: 15% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25% 25%;
+}
+
+#man{
+    grid-column: 4/5;
+    padding-left: 40%;
+    padding-top: 5%;
+    align-items: center;
+}
+
+#comma{
+    grid-column: 1/4;
+    grid-row: 2;
+    padding-left: 7%;
+}
+
+#matthew{
+    grid-column: 1/4;
+    grid-row: 3;
+    padding-left: 7%;
+}
+
+#info{
+    grid-column: 1/4;
+    padding-left: 7%;
+}
+
+#go{
+    grid-column: 1/3;
+    grid-row: 5;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: #0D65D8;
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 85%;
+    height: 60%;
+    text-align: center;
+}
+
+#dismiss{
+    grid-column: 3/5;
+    grid-row: 5;
+    margin-top: 5%;
+
+    background-color: white;
+    color: black;
+    font-family: Open Sans;
+    font-size: 16px;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 85%;
+    height: 60%;
+    text-align: center;
+}
+
+#trends{
+    color: #757E90;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 5%;
+}
+
+#hands{
+    display: grid;
+    justify-content: center;
+    scale: 1.3;
+    padding-bottom: 3%;
+}
+
+#welfare{
+    padding-left: 5%;
+}
+
+#blue-line{
+    padding-left: 8%;
+    scale: 1.2;
+}
+
+#grey-line{
+    padding-left: 10%;
+    scale:1.2;
+}
+
+#total{
+    padding-left: 10%;
+}
+
+#number{
+    padding-left: 15%;
+}
+
+#funds{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    grid-template-rows: 50fr;
+}
+
+#people{
+    display: grid;
+    justify-content: center;
+    scale: 1.3;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+}
+
+#house {
+    scale: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heart {scale: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#search {scale: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#human {scale: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#building{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#charities{display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#explore{display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#profile{display: flex;
+    justify-content: center;
+    align-items: center;}
